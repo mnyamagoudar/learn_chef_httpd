@@ -16,5 +16,5 @@ describe port(80), :skip do
 end
 
 describe package('git') do
-  it { should be_installed }
+  it { should_not be_installed }
 end
